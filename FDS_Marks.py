@@ -109,6 +109,8 @@ def main():
          highest(FDS_Marks)
       elif (ch == 4) :
          lowest(FDS_Marks)
+      elif (ch == 5):
+         find_count_of_absent_students(FDS_Marks) 
       elif (ch == 6) :
          display_mark_with_highest_frequency(FDS_Marks)
       else :
